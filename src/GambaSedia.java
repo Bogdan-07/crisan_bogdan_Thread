@@ -1,5 +1,13 @@
+/**
+ * @author Crisan Bogdan 5DINF
+ * @version 1.0
+ *
+ * <p>
+ *     Questa Classe estende Thread e simula la creazione di una gamba di una sedia
+ *     mostrando a schermo la percentuale di completamento
+ */
 public class GambaSedia extends Thread {
-    private int numGamba;
+    private final int numGamba;
 
     public GambaSedia(int numGamba){
         this.numGamba = numGamba;

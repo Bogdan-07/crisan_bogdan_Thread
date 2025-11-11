@@ -1,13 +1,15 @@
-/*Il principio è porre in parallelo almeno 2 fasi di realizzazione del prodotto,
-ciascuna realizzata mediante un thread, il quale, per comunicare che sta facendo "qualcosa",
-stampa a video una stringa descrittiva della propria funzione, e per impostare una certa
-tempistica, si avvale dell'uso dello sleep (RICHIESTO); infine per consentire ad un
-thread padre di attendere il completamento del thread figlio,
-si faccia uso del join (RICHIESTO).*/
 
 import java.util.ArrayList;
 import java.util.Scanner;
-
+/**
+ * @author Crisan Bogdan 5DINF
+ * @version 1.0
+ *
+ * <p>
+ *     Questa classe gestisce la creazione di una o più sedie, composte da schienale e gambe,
+ *     mostrando a schermo la percentuale di completamento di ciascuna componente della sedia e in fine,
+ *     la percentuale di completamento dell'assemblaggio della sedia stessa
+ */
 public class Processo {
     public static void main(String[] args) {
         Scanner inputUtente = new Scanner(System.in);
