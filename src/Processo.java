@@ -7,8 +7,9 @@ import java.util.Scanner;
  *
  * <p>
  *     Questa classe gestisce la creazione di una o più sedie, composte da schienale e gambe,
- *     mostrando a schermo la percentuale di completamento di ciascuna componente della sedia e in fine,
- *     la percentuale di completamento dell'assemblaggio della sedia stessa
+ *     mostrando a schermo la percentuale di completamento di ciascuna componente della sedia
+ *     e in fine, la percentuale di completamento dell'assemblaggio della sedia stessa.
+ *
  */
 public class Processo {
     public static void main(String[] args) {
