@@ -26,12 +26,14 @@ public class Processo {
             GambaSedia gamba3 = new GambaSedia(3);
             GambaSedia gamba4 = new GambaSedia(4);
             SchienaleSedia schienaleSedia = new SchienaleSedia();
+            SedileSedia sedileSedia = new SedileSedia();
 
             processiInEsec.add(gamba1);
             processiInEsec.add(gamba2);
             processiInEsec.add(gamba3);
             processiInEsec.add(gamba4);
             processiInEsec.add(schienaleSedia);
+            processiInEsec.add(sedileSedia);
 
             for (int j = 0; j < processiInEsec.size(); j++ )
                 processiInEsec.get(j).start();
