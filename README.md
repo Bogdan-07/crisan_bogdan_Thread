@@ -1,4 +1,3 @@
-Certo! Ecco la versione del **README** senza icone, in formato semplice e pulito:
 
 ---
 
